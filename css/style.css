@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    /* color: rgba(236, 236, 236, 0); */
+    background-color: rgb(248, 248, 248);
+    /* overflow-x: hidden; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+nav ul {
+    padding: 0 2em 0 2em;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 1em 2px 1em 2px;
+}
+
+nav li a{
+    text-decoration: none;
+    /* color:#96B1B3; */
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav li:hover {
+    background-color:#D1D2E8;
+}
+
+/* about section */
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10vh;
+    padding:0 100px 0 100px;
+    /* border:1px solid black; */
+    /* height: 60vh; */
+}
+
+#self-intro {
+    /* border:1px solid red; */
+    width: 30%;
+}
+
+#self-intro h1{
+    margin-top: 25%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+#self-intro p{
+    margin-top: 1.5em;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#self-intro p a{
+    color: #96B1B3;
+    text-decoration: none;
+}
+
+/* figure {
+    border-right: 1px solid black;
+} */
+
+#about {
+    height: 800px;
+    width: auto;
+}
+
+figure img{
+    margin-left: 50px;
+    width: 600px;
+    height: auto;
+    /* border:1px solid black; */
+}
+
+/* project section */
+
+.section-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 5.5em;
+    text-align: center;
+    border-top: 1em solid black;
+    padding-top: 0.3em;
+}
+
+.task-description {
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    color: grey;
+    margin: 0 14vw 0 14vw;
+    line-height: 1.8em;
+    font-size: 1em;
+    padding: 0.6em 0 0.6em 0;
+}
+
+.subtitle {
+    color:rgb(43, 43, 43);
+    margin: 1em 14vw 0 14vw;
+    font-size: 1.6em;
+    font-family: 'Francois One', sans-serif;
+}
+
+.content {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0.5em 14vw 0 14vw;
+    
+}
+
+.figures, .figures-noHover {
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    width: 500px;
+    height: auto;
+    align-self: center;
+    box-shadow: 3px 3px 4px 1px #000;
+}
+
+
+
+.figures:hover {
+    width: 1000px;
+}
+
+.toggle-button {
+    display: inline-block;
+    cursor: pointer;
+    margin:2em 0;
+    padding: 0.9em 1.2em;
+    font-size: 0.9em;
+    border-radius: 0.6em;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #546180;
+    box-shadow: none;
+    border:none;
+    color: white;
+    border: 2px solid white;
+}
+
+.toggle-button:hover {
+    background-color: white;
+    color: #546180;
+    border: 2px solid #546180;
+}
+
+.figure-box {
+    text-align: center;
+}
+
+#hidden-A, #hidden-B, #hidden-C{
+    display: none;
+}
+
+#reflection, #portfolio {
+    margin-top: 30px;
+}
+
+#portfolio {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1145px) {
+    figure img{
+        width:450px;
+        top: 100px;
+    }
+
+    figure {
+        padding-top: 10%;
+    }
+
+    .figures:hover {
+        width: 750px;
+    }
+
+
+}
+
+@media (max-width: 945px) {
+    figure img{
+        display: none;
+    }
+
+    #self-intro {
+        width: 80%;
+    }
+
+    .figures:hover {
+        width: 600px;
+    }
+}
+
+@media (max-width: 585px) {
+    #self-intro {
+        width: 100%;
+    }
+
+    #about-container {
+        padding: 0 70px 0 70px;
+    }
+
+    .figures, .figures-noHover{
+        width: 350px;
+    }
+
+    .figures:hover {
+        width: 400px;
+    }
+}

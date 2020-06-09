@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pengliang Deng Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#reflection">REFLECTION</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+
+        <div id="about">
+            <div id="about-container">
+                <section id="self-intro">
+                    <h1>Hi , I'm Pengliang Deng.</h1>
+                    <p id="bio">I'm a master student majoring in IT at the University of Queensland. I am crazy about minimalist design style which conveys a kind of high-class simplicity. <br>In my free time, I like to draw some skteches of random things.
+                        I am passionate about designing and programming. I would like to seize every possible opportunity to practice what I learn in university.
+                        <br> <br>You can contact me at: <a href="mailto:pengliang.deng@uqconnect.edu.au">pengliang.deng@uqconnect.edu.au</a></p>
+                </section>
+                <figure><img src="images/selfie.png" alt="selfie of the author"></figure>
+            </div>
+        </div>
+
+        <div id="project">
+            <!-- design exploration -->
+            <p class="section-header">DESIGN EXPLORATION</p>
+            <p class="task-description">Task Description: Design exploration is an activity of the first weeks. This activity is an indivisual work requiring students to explore given background materials and existing websites or applications and generate novel ideas. Students would have a pitch presentation to express their concepts to the class. The ideas generated in this section could be a basis for the next team-based major project.</p>
+            <section class="content-box">
+                <p class="subtitle">MY CONCEPT</p>
+                <p class="content">My concept is to develop a website that allows users to find public state libraries near their place and also provides extra information about the libraries, like Wi-Fi available, fees for entry, booking services and etc... <br>
+                The dataset I chose is Queensland public libraries from State Library of Queensland. The target group would be students and retirees. They could use this website to find the nearest library to go. Through Google Map API, they can even find different transportations.</p> 
+                
+                <p class="subtitle">POSTER</p>
+                <p class="content">Below is the poster I created for pitch presentation.<br>
+                    <div class="figure-box"><img class="figures"src="images/poster.jpg" alt="pitch poster with books pic"></div>
+                    <br>
+                </p>
+                <p class="subtitle">REFLECTION</p>
+                <p class="content">Overall, I was happy about what I have done for this design exploration. The pitch was not perfect as what I expected because I didn't finish my pitch in 3 mins, but the result was acceptable. In this section, we also did a lot of activities, like brainstorming, group discussion and six thinking hats. These activities are great in terms of generating ideas, especially, the six thinking hats. Basically, that activity is to give feedbacks of the concept that we discuss according to 6 different aspects to have a more comprehensive feasibility analysis. Through the section, I learned how to reflect on an idea and practiced my design skills by making a poster.</p>
+                <div class="hidden" id="hidden-A">
+                    <p class="subtitle">IDEATION</p>
+                    <p class="content">After we had some brainstorm activities, I found that ideas of most of us are quite similar since most resources are restrained to a narrow domain of histroy. And we were kind of generating the same stuff and nothing new or fancy thought came out. I guess this would be a problem for our students who lack of design mindsets. <br><br>Therefore, my initial idea was to use the dataset of State Library of Queensland - Picture Queensland since I thought It would be a good idea to have a kind of history gallery website of Brisbane to show the beauty of Brisbane from 1800s to 1900s... What is more, this dataset provides a variety of photos during 1800s to 1900s. These are some photos of buildings or portraits. <br><br>
+                    Then, when doing a six thinking hats activity, our small group had an idea of building a searching application to find state libraries which was the base of my final concept. In conclusion, if we want to build a website about public library, there are something we should know. (Below content is credited by some classmates.)
+                    
+                    What people may want to know about the library.<br>
+                    <li class="content">How many libraries exist.</li>
+                    <li class="content">Location of libraries. (Are they close to shopping malls, coffee shops, transportation hubs)</li>
+                    <li class="content">What services do the libraries provide? (Meeting spaces, WI-FI, Charging Stations, Child Care, Coffee)</li>
+                    <li class="content">Book collections available.</li>
+                    <li class="content">Rules (How to borrow books, membership requirements)</li>
+                    <li class="content">Routes ( How to get to the library, travel times, parking and end of trip facilities)</li>
+                    <li class="content">Opening Times</li>
+                    <li class="content">Gift Shop</li>
+
+                    <p class="content">And then we want to know why people may want to use the library.<br></p>
+                    <li class="content">Free WI-FI</li>
+                    <li class="content">Study Space. (Quiet, Focused Study)</li>
+                    <li class="content">Meetings for study / projects</li>
+                    <li class="content">Book Collections.</li>
+
+                    <p class="content">And who may want to use the library. (What is our target group ?)<br></p>
+                    <li class="content">University Students</li>
+                    <li class="content">High School Students on School Visits</li>
+                    <li class="content">Over 50s (Retirees)</li>
+                    <li class="content">Unemployed People (because you don't have to pay a lot of money to have the services public libraries provide, usually free.</li>
+                    <li class="content">Tourists</li>
+   
+                    <p class="content">Last, this project would be useful for:<br></p>
+                    <li class="content">Shorten commuting time. (for people want to find a nearest library)</li>
+                    <li class="content">Be better informed regarding services provided by the library</li>
+
+                    <p class="content">However, drawbacks of this project are obvious as well.
+                    
+                    This project is not so interesting and the value it provided is not much.<br><br>
+                    When I took this idea as my concept, I tried to add more functionalities to the concept because there are Google Map out there to be used for this purpose. Finally, I would like to make the app to provide services and information of events that libraries have so that users could check not only locations but also other services libraries could offer. Furthermore, they can get access to services through our website/application.
+                    </p>
+
+                    <p class="subtitle">POSTER DESIGN</p>
+                    <p class="content">In terms of design aspect, I only had experience with very basic operations with Photoshop and Adobe Illustrator. Although the tools on my hands are limited, I believe they are enough to create a fine poster if I am more familiar with them. However, what I really need is design knowlege since I did not deepen my hobby into a professional level. Therefore, I did some research on how to design a good-looking poster and some design principles for inspiration. <br>
+                    After exploring some online articles about aesthetic design, I summarize them as five aspects I think are of importance, namely colour, typography, balance of content, hierarchy and alignment. When I design my poster, I frequently used the golden ratio for my layout design and tried to apply color harmony rule, specifically the monochromatic color schemes. Below are sketches of my poster layout and the color set.<br></p>
+                    <div class="figure-box">
+                        <img class="figures-noHover" src="images/posterLayout.png" alt="layout sketch of my pitch poster">
+                        <img class="figures-noHover" src="images/color.png" alt="color set">
+                    </div>
+                    <p class="content">Overall, I am quite satisfied with this poster design. The layout looks nice. The visual weight of content is balanced and colors look harmonious and pleasing.</p>
+                </div>
+                <a class="toggle-button" id="toggle-A">SHOW MORE</a>
+            </section>
+
+            <!-- PART A -->
+            
+            <p class="section-header">MAJOR PROJECT PART A</p>
+            <p class="task-description">Task Description: Part A of the major project is design proposal. In this part, we are required to form an official group of 4 people to complete the major project. The major project is to conceptualise, refine and implement a web-based application that presents the data content from
+            State Library of Queensland in an engaging and interactive manner. At the end of this section, each group needs to have their concept decided and write a design proposal and represent the concept to the class.</p>
+            <section class="content-box">
+            <p class="subtitle">PROJECT CONCEPT</p>
+            <p class="content">
+                Our team decided to build a game-based website to illustrate the data of different levels of endangered wild
+                animals. This data will be used and expressed in an interactive find-and-catch game where users play as an adventurer who is trying to find the wildlife in the woods. We hope our project could enhance the understanding of that knowledge and our audience could develop awareness of protecting endangered species for the educational purpose. Below is the draft of our concept credtied by our designer Annan.
+            </p>
+            <div class="figure-box">
+                    <img class="figures-noHover" src="images/sample.png" alt="draft of website's concept">
+            </div>
+            <p class="subtitle">MY CONTRIBUTION</p>
+            <p class="content">
+                <li class="content">Being the leader to lead team meetings and make work arrangements.</li>
+                <li class="content">Collected and organized the documents of team members.</li>
+                <li class="content">Designed proposal cover and layout.</li>
+                <li class="content">Wrote or edited several parts including the purpose, interaction, one persona and completion plan of the proposal.</li>
+                <li class="content">Researched techniques required for developing a web-based game.</li>
+            </p>
+            <p class="subtitle">REFLECTION</p>
+            <p class="content">
+                On the whole, part A was successful since we came up with an interesting idea for the project. We are also clear about the interactions and task allocations. Therefore, we were able to get started with next section Part B. The major concern of mine is the web-based game as it was the most important feature of our website. The success of our project would heavily rely on the game's interactions. However, none of us had experience of designing a game from the aspect of design concept or skillsets required. Luckily, it turned out to be good in the trade show. Although our project still has a lot to be refined and condidered, we were happy with the start.
+            </p>
+                <div class="hidden" id="hidden-B">
+                    <p class="subtitle">IDEATION</p>
+                    <p class="content">After we formally formed a team group. I volunteered to be the leader and then drafted a document for team members to write their ideas of the project. Ideation process was hard since the data from the datasets is kind of boring. Coming up with an engaging and interesting web application was difficult. The easiest way to make a website interesting is to develop a game. Having a game-based website was quickly surpported by team members. And I've got two initial ideas based on my play-game experience.</p>
+                    <li class="content">Topic: Environment<br>
+                            Consider to build a game-based website for users to play with. In this game, users need to play as a “bad” guy. They can use the tools they have to make a beautiful environment become worse. A dynamic change is showing to the environment and pop up a webpage to tell users about the corresponding knowledge. This idea is inspired by one mobile game named Plague Inc. <br>
+                            Advantages: more fun.<br>
+                            Disadvantages: technical challenges, more APIs needed
+                    </li>
+                    <li class="content">Topic: Historical Pictures<br>
+                            Consider building a puzzle game having different levels for users to play with. When they successfully complete the puzzle of one picture. The detailed info about that picture would be given as a reward. They could review their pictures in a gallery part of the website.<br>
+                            
+                            Advantages: technical aspect would be easier comparing to the Environment one. The dataset of picture Queensland provides almost enough resources for use.<br>
+                            Disadvantages: This website is kind of “traditional”.
+                    </li>
+                    <p class="content">After the meeting in the first, my initial ideas were abandoned. One about endangered animals which was the final concept of our project was accepted by all of us. </p>
+
+                    <p class="subtitle">RESEARCH</p>
+                    <p class="content">I was in charge of researching of game interactions. Therefore, I looked through some tutorials available on the Internet. I found out that most techniques, like the Canvas, Unity and etc, used for developing web-based game were not easy to master in a very limited time we had for implementing the whole website. We were not familiar with APIs available for game designing as well. <br><br>Considering the difficulty and time constraint, I decided to choose simply html, css and jQuery/JavaScript as the implementation tool (like using jQuery to control very simple css animation to achieve the expected interations we tried to implement in the game. </p>
+                    <p class="subtitle">PROPOSAL COVER</p>
+                    <p class="content">I designed the cover of our proposal. I tried to use more design knowledge I learned from the Internet like using transparency to create a feeling of dynamic or using blur effects to create movement and so on. In my proposal cover design, I used two techniques, contrast and negative color space. From picture below, you can see that I used black letters and white space to create animals'shape. I was proud of what I have created since it combined the topic of our project with the feature of our game (a catch and found game) together.</p>
+                    <div class="figure-box">
+                            <img class="figures-noHover" src="images/proposal-cover.png" alt="proposal cover">
+                    </div>
+
+                </div>
+                <a class="toggle-button" id="toggle-B">SHOW MORE</a>
+            </section>
+
+            <!-- PART-B -->
+            
+                <p class="section-header">MAJOR PROJECT PART B</p>
+                <p class="task-description">Task Description: Part B is the progress demo. In this section, we should have concept decided and start implementation and overcoming issues through the process. At the end of this section, we need to have a minimum viable product and will have a demo presentation to show the MVP. Therefore, basically this section is set to ensure our progress of implementing go well.</p>
+            <section class="content-box">
+                    <p class="subtitle">Minimum Viable Product</p>
+                    <p class="content">
+                        <li class="content">The website's layout was completed having side navigation, main navigation and footer working. Most pages we were trying to have were made while the detailed information pages had not yet been done since we have not chosen all animals that we would like to put in game. Most contents were missing as well. Moreover, currently the website was not responsive resulting in the layout breakdown showing in different size of browsers' window.</li>
+                        <li class="content">In terms of interactions, most of them were completed, for example clicking animals to pop up information retrieved from datasets, keyboard control of players and css animation of animals' behaviours, except the score board, line chart showing in introduction page and homepage's animation.</li>
+                    </p>
+
+                    <div class="figure-box">
+                            <img class="figures-noHover" src="images/mvp-layout.png" alt="demo layout">
+                            <img class="figures-noHover" src="images/mvp-game.png" alt="demo game interface">
+                    </div>
+
+                    <p class="subtitle">MY CONTRIBUTION</p>
+                    <p class="content">
+                        <li class="content">Implemented the functionality to retrieve SLQ API's data.</li>
+                        <li class="content">Implemented all the game's functionalities like pop-up window when click animals, movement control of players and so on.</li>
+                        <li class="content">Implemented the responsive score board showing final scores according to users' performance in game. (credtied by Tong)</li>
+                        <li class="content">Implemented the home page's animation.</li>
+                        <li class="content">Implemented the layout of the website.</li>
+                    
+                    </p>
+                    <p class="subtitle">REFLECTION</p>
+                    <p class="content">
+                        In general, things were going well since we successfully implemented most functionalities of what we wanted. However, I felt a little overwhelming since I felt that I did a majority of programming work. As a leader, I didn't know how to use Git and some other distributed version control system at that moment, making my work-load even bigger. I would definitely use these version control systems for coordinate work among programmers. In addition, I lacked the aesthetic design practice in the Part B section. Most pictures used in our website were created by one designer Annan. Until now, I still feel it is hard to distribute the design work to multiple people if we want to keep the style of illustrates consistent. Lastly, we didn't do many user tests which was really a regret. As a whole, our group was progressing well.
+                    </p>
+                        <div class="hidden" id="hidden-C">
+                            <p class="subtitle">GAME IMPLEMENTATION</p>
+                            <p class="content">The game interface was implemented as an iframe component in the game page so that players could have a similar movement effect when press the key-arrow in the keyboard. Other functionalities are just completed by some basic css animation with jQuery. Later, since Tong had a hard time implementing the score board while my part was nearly finished. I decided to help her to implement that functionality by using local storage with some JavaScript. The homepage animation is easy by using css only (making the background image rotate, fixing the person's position). Below are screenshots of our final homepage and score board.</p>
+                            
+                            <div class="figure-box">
+                                    <img class="figures-noHover" src="images/final-home.png" alt="home page">
+                                    <img class="figures-noHover" src="images/scoreBoard.png" alt="score board">
+                            </div>
+
+                            <p class="subtitle">FEEDBACKS</p>
+                            <p class="content">The feedbacks from the demo presentation were focusing on the content that was missing and the success criteria was not in detail. We refined these part when we wrote the final report.</p>
+                        </div>
+                        <a class="toggle-button" id="toggle-C">SHOW MORE</a>
+            </section>
+
+            <!-- PART C -->
+
+            <p class="section-header">MAJOR PROJECT PART C</p>
+            <p class="task-description">Finally, the last section of the major project is the tradeshow. Groups will exhibit their final applications to all the people who come to your table. Students will also submit a final report to keep record of final application and the outcomes.</p>
+        <section class="content-box">
+                <p class="subtitle">MY CONTRIBUTION</p>
+                <p class="content">
+                    <li class="content">Presenter in trade show.</li>
+                    <li class="content">Final report cover design.</li>
+                </p>
+
+                <p class="subtitle">RESULT</p>
+                <div class="figure-box">
+                        <img class="figures-noHover" src="images/tradeShow.png" alt="group photo of our team">
+                </div>
+                <p class="content">
+                    Tradeshow turned out to be a good result. Users came to our table and played with the game. They found out that the game were quite engaging and interesting. Some users also mentioned that our homepage's animation was attractive and they came to play with our website because of that, showing that our animation of homepage was a good feature. Also, thanks to our designer Annan, users were glad with the cartoon pictures of our website.<br>
+                    However, there were still some unexpected behaviours from users. For example, the instruction said that user should click the game interface to start the game. A quite number of players ignore that part and stuck. I thought this could be the reason that the instruction is not so eye-catching. In the future refinement, this could be fixed by making the instructions more noticeable and probably compulsury. And it seemed like not many people had a look at the content, showing that we still needed to work on the content to make it represented in an interesting way.
+                </p>
+
+                <p class="subtitle">REFLECTION</p>
+                <p class="content">
+                    As a whole, WildCatch was a successful website for people play with. From people's feedbacks, there still are some work needed like adding more animals and making the detailed content more interesting and so on. Overall, the project was completed well. All of us were satisfied with what we have achieved.
+                </p>
+        </section>
+        </div>
+
+        <!-- REFLECTION -->
+        <div id="reflection">
+                <p class="section-header">COURSE REFLECTION</p>
+            <section class="content-box">
+                    <p class="subtitle">MY FIRST JOURNAL</p>
+                    <p class="content">
+                        Below are the contents of my first journal about expectations of this course.
+                        <li class="content">I think this course is to help us to learn about team work and enhance the ability of web development.</li>
+                        <li class="content">I expect to cooperate with other people and try to do my best this semester. I also want to learn more about ideas. I mean, how to come out an unique idea and also an interesting topic to attract people. I’m worried about my English when communicating with others since Im an international students. Im afraid my poor English would result in ineffective communication.</li>
+                        <li class="content">I hope that I can approve my ability to speak English and also the ability of design.</li>
+                    </p>
+    
+                    <p class="subtitle">REFLECTION</p>
+                    <p class="content">
+                        From what I wrote in my first journal, it seems like nothing valuable there. I think I didn't be aware of how this journal would be used until I went through the whole semester. I finally realized that keeping a journal would be so useful and important for a designer to keep track of the design processes! It is so useful that I will use it definitely for the future study. What's more, through this course, I do practice my English to some extent since there were several pitch presentations. I also learn some techniques of the back-end web development but not much. <br>
+                        Overall, this course is good but I don't feel like learning much programming skills. In terms of design, the workshop for using Photoshop and Adobe Illustrator also turns out to be very basic.
+                    </p>
+    
+                    <p class="subtitle">SUGGESTION</p>
+                    <p class="content">
+                            One of the course aims is to promote and foster creative thinking through projects. We have been given multiple activities to achieve that goal, like WorldCafe, brainstorming,  six thinking hats, etc. I believe these activities are great and useful for generating innovative ideas. However, I am not quite inspired by them because I didn't know how to think differently, or say, how to think of things in different perspectives. During the activities, I just kept saying something that might be quite common to be heard. Teaching staff actually gave us some examples about how to think about novel ideas. But I still feel that is limited. Therefore, one suggestion I would give is to have one contact sessions to focus on that by illustrating some problem solving processes to let students think, discuss and give them the answer. For example, there is one famous problem solving question called Candle problem. I guess there are more examples out there. Using these kind of examples combining with some theories about design thinking probably would inspire students to think out of box, and then having some other activities. Hope this feedback would be some kind of helpful.
+                    </p>
+            </section>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+                <p class="section-header">PORTFOLIO</p>
+            <section class="content-box">
+                    <p class="content">
+                        This portfolio is very simple, not fancy. I tried to be creative and make a fancy one but just not satisfied with the outcome. Therefore, I discarded the previous design and design a simple one. I am happy with this one since the selfie drawing looks awesome for me and the layout is very clean. I like this kind of classic newspaper feeling shown by most black and white colors.
+                    </p>
+            </section>
+        </div>
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
